@@ -22,7 +22,7 @@ java -version'''
 
     stage('ok') {
       steps {
-        writeFile(file: 'status.txt', text: 'good', encoding: 'txt')
+        writeFile(file: 'status.txt', text: 'good')
       }
     }
 
